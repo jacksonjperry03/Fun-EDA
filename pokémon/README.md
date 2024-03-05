@@ -76,3 +76,7 @@ While this initial exploration provided a basic understanding of the data, there
 * **Categorical Variables:** A deeper dive into the categorical variables, such as type combinations and their impact on other stats, is recommended.
 
 This refined data can then be used for more advanced statistical modeling and data mining techniques.
+
+<sub> 
+This README document was partially generated with the assistance of artificial intelligence.
+</sub>
