@@ -1,6 +1,6 @@
 # Fun-EDA
 
-## Exploratory Data Analysis of Pokemon Stats (Gen I-VI)
+## [Exploratory Data Analysis of Pokemon Stats (Gen I-VI)](./pokemon.ipynb)
 
 This document outlines the initial exploration of a dataset containing information on the base stats of various Pokemon across the first six generations of the video game series. 
 
