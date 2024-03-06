@@ -1,4 +1,4 @@
-## [GitHub README for Rice Classification Notebook](./rice_classification.ipynb)
+## [Rice Classification Notebook](./rice_classification.ipynb)
 
 **Rice Classification**
 
