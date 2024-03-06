@@ -1,31 +1,40 @@
-# [Possum Predictions using Regression Models](./possum.ipynb)
+# [Possum Predictions using Regression Models](./possum_regression.ipynb)
 
 ### Data Acquisition
 
 The dataset, ["Possum Regression"](./possum.csv), was retrieved from [https://www.kaggle.com/datasets/abrambeyer/openintro-possum](https://www.kaggle.com/datasets/abrambeyer/openintro-possum).
 
-## Overview
-This Jupyter notebook explores the task of predicting the age of possums based on various features using regression models. The dataset used contains information about possums, including their age, sex, physical measurements, and more.
+This repository contains a Jupyter Notebook exploring various regression models for predicting the age of possums based on their foot length. The notebook provides a comprehensive analysis of different regression techniques and their performance in predicting possum age.
 
-## Requirements
-- Python 3
-- Jupyter Notebook
-- Libraries: pandas, scikit-learn, matplotlib, seaborn
+## Overview
+
+- **Data**: The notebook uses a dataset containing measurements of possums, including foot length and age.
+- **Models**: Several regression models are explored, including:
+  - Multivariate Linear Regression
+  - Univariate Linear Regression
+  - Decision Tree Regressor
+  - Support Vector Regression (SVR)
+- **Evaluation**: Each model is evaluated based on its performance metrics, such as mean squared error and R-squared score.
+- **Hyperparameter Tuning**: Grid search is used to optimize the hyperparameters of the decision tree regressor and SVR models.
+- **Comparison**: The performance of each model is compared, considering factors such as accuracy, computational complexity, and interpretability.
 
 ## Contents
-1. **Introduction**: Provides an overview of the task and dataset.
-2. **Data Preprocessing**: Loading the dataset, handling missing values, and identifying the target variable and features.
-3. **Modeling**: 
-   - Initial attempt with Linear Regression
-   - Univariate Linear Regression
-   - Decision Tree Regressor
-   - Support Vector Regression (SVR)
-4. **Model Evaluation**: Comparing the performance of different models using mean squared error and R-squared scores.
-5. **Time Analysis**: Analyzing the computational time for fitting and scoring each model.
-6. **Conclusion**: Summary of findings and recommendation for model selection.
+
+1. **Data Preparation**: Loading and preprocessing the possum dataset.
+2. **Multivariate Linear Regression**: Fitting a multivariate linear regression model and evaluating its performance.
+3. **Univariate Linear Regression**: Trying univariate linear regression with foot length as the only feature.
+4. **Decision Tree Regressor**: Exploring decision tree regression and hyperparameter tuning using grid search.
+5. **Support Vector Regression (SVR)**: Implementing SVR with linear and RBF kernels, and optimizing hyperparameters.
+6. **Model Comparison**: Comparing the performance of different regression models and discussing the findings.
+
+## Results
+
+The notebook concludes with insights on the best-performing regression model for predicting possum age based on foot length, considering both predictive accuracy and computational efficiency.
 
 ## Conclusion
-Based on the analysis, the Decision Tree Regressor emerged as the most suitable model for predicting possum age, providing a good balance between performance and computational efficiency. However, model selection may vary based on specific requirements and dataset characteristics.
+
+This project demonstrates the process of building and evaluating regression models for prediction. It highlights the importance of selecting appropriate models and optimizing hyperparameters for better predictive performance.
+
 
 <sub> 
 This README document was partially generated with the assistance of artificial intelligence.
