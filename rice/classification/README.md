@@ -54,10 +54,11 @@ While this model shows promise for rice species classification, relying solely o
 
 **Future Work**
 
-- Explore more complex models like Random Forest or Support Vector Machines.
 - Incorporate additional features that might be relevant for classification.
 - Improve the interpretability of the decision tree model using feature importance analysis.
 - Validate the model performance on a separate dataset.
 
 
-I hope this README provides a clear and concise overview of the rice classification notebook!
+<sub> 
+This README document was partially generated with the assistance of artificial intelligence.
+</sub>
