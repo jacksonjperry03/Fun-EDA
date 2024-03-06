@@ -9,14 +9,6 @@ This notebook explores the classification of rice species based on physical char
 
 The dataset, ["Rice (Cammeo and Osmancik)"](./Rice_Cammeo_Osmancik.arff), was retrieved from [https://archive.ics.uci.edu/dataset/545/rice+cammeo+and+osmancik](https://archive.ics.uci.edu/dataset/545/rice+cammeo+and+osmancik).
 
-
-The notebook uses the following Python libraries:
-
-- pandas
-- seaborn
-- scikit-learn
-- matplotlib
-
 **Objective**
 
 The objective is to predict the species of a rice sample (Cammeo or Osmancik) based on features like area, perimeter, and eccentricity.
@@ -24,6 +16,13 @@ The objective is to predict the species of a rice sample (Cammeo or Osmancik) ba
 **Data**
 
 The data is loaded from an ARFF file using `arff.loadarff`. It contains features describing the rice grains and a target variable indicating the rice species.
+
+The notebook uses the following Python libraries:
+
+- pandas
+- seaborn
+- scikit-learn
+- matplotlib
 
 **Methodology**
 
@@ -54,10 +53,11 @@ While this model shows promise for rice species classification, relying solely o
 
 **Future Work**
 
-- Explore more complex models like Random Forest or Support Vector Machines.
 - Incorporate additional features that might be relevant for classification.
 - Improve the interpretability of the decision tree model using feature importance analysis.
 - Validate the model performance on a separate dataset.
 
 
+<sub>
 I hope this README provides a clear and concise overview of the rice classification notebook!
+</sub>
