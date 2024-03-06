@@ -1,10 +1,10 @@
-## Exploratory Data Analysis of Top 250 IMDB Movies
+## [Exploratory Data Analysis of Top 250 IMDB Movies](./movies.ipynb)
 
 This notebook explores the user ratings and other information for the top 250 movies on IMDB according to a scraped dataset. The analysis utilizes Python libraries like pandas for data manipulation and seaborn for data visualization.
 
 ### Data Acquisition
 
-The data for this analysis is assumed to be from a CSV file named "movies.csv" located in the same directory as this Jupyter notebook. 
+The dataset, ["IMDB Top 250 Movies"](./movies.csv), was retrieved from [https://www.kaggle.com/datasets/ashishjangra27/imdb-top-250-movies?select=movies.csv](https://www.kaggle.com/datasets/ashishjangra27/imdb-top-250-movies?select=movies.csv).
 
 ### Libraries
 
@@ -70,12 +70,10 @@ This code investigates the relationship between the number of IMDB votes a movie
 
 ### Future Analysis
 
-This initial exploration provides a starting point for further analysis of the movie data. Here are some areas for future investigation:
-
 * **Data Cleaning:** The data may contain inconsistencies or typos (e.g., "writter_name") that should be addressed before further analysis.
+
 * **Categorical Variable Exploration:**  A deeper dive into the categorical variables like genre, director, and cast could reveal interesting relationships with other features (e.g., average rating for different genres, director with the most movies).
-* **Temporal Analysis:** If the dataset includes release years, exploring trends across time periods could be interesting (e.g., most popular genres by decade).
-* **Predictive Modeling:** After data cleaning and feature engineering, this dataset could be used for building models to predict movie ratings or recommend movies based on user preferences.
+* 
 
 <sub> 
 This README document was partially generated with the assistance of artificial intelligence.
