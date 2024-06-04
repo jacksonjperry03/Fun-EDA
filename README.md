@@ -15,7 +15,6 @@ This repository contains several directories, each focusing on a different *fun*
 ### Getting Started
 
 The provided Jupyter notebooks can be opened and run using Jupyter Notebook.
-**Tip:**  Check the first code block of each notebook for any specific library requirements.
 
 <sub> 
 This README document was partially generated with the assistance of artificial intelligence.
